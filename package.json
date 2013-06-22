@@ -1,0 +1,45 @@
+{
+  "name": "grunt-preview",
+  "description": "Open files for preview",
+  "version": "0.0.1",
+  "homepage": "https://github.com/kmees/grunt-preview",
+  "author": {
+    "name": "Kevin Mees"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kmees/grunt-preview.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kmees/grunt-preview/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/kmees/grunt-preview/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.2.0",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt": "~0.4.0",
+    "sinon": "~1.7.3",
+    "grunt-contrib-clean": "~0.4.1"
+  },
+  "dependencies": {
+    "open": "0.0.3"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
